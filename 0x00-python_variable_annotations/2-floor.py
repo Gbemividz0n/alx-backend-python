@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-""" A type-annotated function floor."""
-import math
+''' type-annotated function floor'''
 
 
-def floor(n: float) -> float:
-    """ Returns the floor of the float."""
-    return math.floor(n)
+def floor(n: float) -> int:
+    '''
+    Args:
+        n: float
+    Return:
+         the floor of the float
+    '''
+    return int(n)
